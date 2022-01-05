@@ -1,0 +1,110 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(56, 116, 134),rgb(17, 39, 48));
+    flex-wrap: wrap;
+}
+
+.navigation{
+    width: 100%;
+    margin: auto;
+    height:500px;
+}
+
+.logo{
+    padding:50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.logo .img img{
+    width:120px;
+    height:120px;
+
+}
+.logo .title{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.navbar ul{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin-bottom: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding:20px 40px;
+    background-color: black;
+}
+.navbar ul li a:hover{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(31, 177, 245);
+    transition-duration: 1s;
+}
+
+.about{
+    margin-bottom: 200px;
+}
+.abtnav h2{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.abt p{
+    color: white;
+    font-size:large;
+}
+
+.title h2{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.arts{
+    margin-bottom: 200px;
+}
+.artwork{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.artwork img{
+    max-width: 200px;
+    height: 200px;
+   
+}
+
+
+.cnt h2{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.contacts{
+    flex-wrap: wrap;
+}
+.cnts p{
+    color:white;
+    margin-bottom: 20px;
+}
